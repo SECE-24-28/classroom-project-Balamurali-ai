@@ -1,0 +1,54 @@
+.box{
+    height:600px;
+    width: 400px;
+    color:white;
+    background-color:cyan;
+    border: 1px solid rgb(20, 189, 189);
+}
+.container{
+    height:1000px;
+    width:1000px;
+    display:grid;
+    /* grid-template-columns:[col1]100px  [col2]100px [col3]120px;/* grid is 2D layout where as flex box is 1D layout , in grid we can work with both rows and columns */
+    /* grid-template-rows:[row1]80px [row2]120px [row3]100px ; */
+    grid-template-areas: "nav nav nav nav"  
+                            "side content content content"
+                            "footer footer footer footer"; */
+    
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+#b4{
+    grid-area :footer;
+    width:1000px;
+    height:400px;
+}
+#b3
+{
+   
+    grid-area: content;
+    height:500px;
+    width:800px;
+    background-color:yellow;
+    color:blue;
+    /* grid-row:row1/row2;
+    grid-column:col1/col2; */
+}
+#b2
+{
+    grid-area: side;
+    height:500px;
+    width:200px;
+    background-color:green;
+}
+#b1
+{
+    
+    width:1000px;
+    height:160px;
+background-color:red;
+    grid-area:nav;
+}

@@ -1,0 +1,21 @@
+.body
+{
+    background-color:rgb(83, 98, 157);
+}
+.container{
+   width: 800px;
+   height:100px;
+   display:flex;
+   align-items:center;
+    justify-content:center;
+    flex-direction: column;
+  column-gap:80px;
+  flex-wrap:wrap;
+
+}
+.box{
+    height:100px;
+    width:180px;
+    color:gold;
+    border-right:2px solid white;
+}

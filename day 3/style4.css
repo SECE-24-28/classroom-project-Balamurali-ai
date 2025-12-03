@@ -1,0 +1,37 @@
+.container{
+    width:500px;
+    height:400px;
+    background-color:cyan;
+    position :relative;
+}
+.ball{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    background-color:chartreuse;
+    position : absolute;
+    left:0;
+    bottom:0;
+    /* animation:goX 3s linear infinite;
+    animation: goY 3s ease-out infinite alternate; */
+    animation : goX 5s linear infinite , goY 1s ease-out infinite;
+
+}
+@keyframes goX{
+    from{
+        left:0;
+
+    }
+    to{
+        left:100%;
+    }
+}
+@keyframes goY{
+    from{
+        bottom:0;
+    }
+    to
+    {
+        bottom:100%;
+    }
+}

@@ -1,0 +1,42 @@
+/* xs- 480px - small phones sm- 768px - tablets md- 992px - small laptops lg- 1200px - desktops xl- 1400px - large desktops */
+
+
+body {
+    background-color: brown;
+}
+@media print and (min-resolution: 400dpi){}
+/* Extra small phones: <= 480px */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: orange;
+    }
+    #c1::after {
+        content: 'screen <= 480px';
+    }
+}
+
+/* Small phones: <= 500px */
+@media screen and (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+    #c1::after {
+        content: 'screen <= 500px';
+    }
+}
+
+/* Tablets & laptops: <= 1024px */
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: lightblue;
+    }
+    #c1::after {
+        content: 'this is a laptop';
+    }
+}
+
+#c1::after {
+    content: " - I am after pseudo element";
+    color: white;
+    font-size: 40px;
+}
