@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+#inp1{
+    font-size
+}
+#inp1::placeholder{
+    padding:30px;
+}
+#inp1,#inp2,#inp3,#inp4{
+    padding:10px;
+    &&:hover/* #inp1:hover*/
+    {
+
+    }
+}
+#inp1:hover
+}

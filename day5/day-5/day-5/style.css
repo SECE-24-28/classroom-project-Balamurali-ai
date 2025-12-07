@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding : 0;
+    height : 100vh;
+    width : 100vw;
+
+}
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+.light {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.flexContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #c92424;
+    
+}
