@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(221, 94, 94);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    width: 100vw;
+}
+
+#myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputs{
+    padding : 10px;
+    border-radius : 20px;
+    font-size: large;
+}
+
+#subBtn{
+    padding : 10px;
+    border-radius : 20px;
+    font-size: large;
+    font-weight:800;
+    border : none;
+    background-color : rgb(120, 224, 120);
+    color : white;
+    &&:hover{
+        background-color : rgb(54, 186, 78);
+        cursor : pointer;
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:white;
+    flex-direction:column;
+    gap: 30px;
+}
+
+.card{
+   color:rgb(90, 198, 66);
+   background-color:rgb(184, 103, 103);
+}

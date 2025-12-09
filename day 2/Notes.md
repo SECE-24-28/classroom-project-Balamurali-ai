@@ -110,5 +110,28 @@ It is interpreted - reads code one line at a time.
 
 JavaScript is the programming language of the web.
 
+Variables declared with the var always have Global Scope.
+
+//IIFE --> immediately Invoked function Exection these fns executes first
+
+//Temporal Dead zone - cant access function of variables before invoking it 
+it will prevent us fromm accessing let and const variable before definition
+//Hoiting - shift all the variables and functions at the top for it to be accessible
+it will make all functions and varibles at the top of the scope before it is even declared and also let and const but TDZ block it and results in an error but we can use var variables but it will result in an undefined output
+
+Callback function is a function that can be accessed with another function . it is a function within a function
+function display(uname){
+console.log("your name is :",name);
+}
+function func1(){
+display("bala");
+}
+func1();
 
 
+promise - it will ensure it  will return a value if it is not it will give a negative review if it is vice versa
+
+status in promises:
+pending 
+fulfilled
+rejected
